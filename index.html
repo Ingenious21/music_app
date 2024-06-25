@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="music-player text-center">
+            <audio id="audio" src=""></audio>
+            <div class="current-song">
+                <div class="window">
+                    <ul id="playlist" class="list-group">
+                        <!-- Songs will be dynamically added here -->
+                    </ul>
+                </div>
+                <h4 id="currentSongName">No song playing</h4>
+
+                <div class="time-controls">
+                    <span id="currentTime">00:00</span> / <span id="totalDuration">00:00</span>
+                </div>
+
+                <div class="playback-speed">
+                    <label for="speed">Speed:</label>
+                    <select id="speed" class="custom-select w-auto">
+                        <option value="0.5">0.5x</option>
+                        <option value="1" selected>1x</option>
+                        <option value="1.25">1.25x</option>
+                        <option value="1.5">1.5x</option>
+                        <option value="2">2x</option>
+                    </select>
+                </div>       
+
+            </div>
+            <div class="controls">
+                <button id="prev" class="btn btn-primary"><i class="fas fa-backward"></i></button>
+                <button id="play" class="btn btn-primary"><i id="playIcon" class="fas fa-play"></i></button>
+                <button id="next" class="btn btn-primary"><i class="fas fa-forward"></i></button>
+                <button id="playlistBtn" class="btn btn-primary" data-toggle="modal" data-target="#playlistModal">Playlist</button>
+                <button id="repeat" class="btn btn-primary"><i class="fas fa-redo"></i></button>
+                <button id="shuffle" class="btn btn-primary"><i class="fas fa-random"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Playlist Modal -->
+    <div class="modal fade" id="playlistModal" tabindex="-1" role="dialog" aria-labelledby="playlistModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="playlistModalLabel">Playlist</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul id="playlist" class="list-group">
+                        <!-- Songs will be dynamically added here -->
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 text-center">
+                    <p>Created by Nehemiah &copy; <span id="currentYear"></span></p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 text-center">
+                    <a href="https://github.com/Ingenious21 target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nehemiah-kemayah-44164921a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nehemiahkemayah?mibextid=LQQJ4d" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/handsome_breezy_bac?igsh=cTZ3ZjZ4cnMzMWZ5&utm_source=qr" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
