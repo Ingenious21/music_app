@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.music-player {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.window {
+    width: 200px;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.current-song h4 {
+    margin-bottom: 20px;
+}
+
+.time-controls,
+.playback-speed {
+    display: inline-block;
+    margin-right: 20px; 
+    margin-bottom: 20px;
+}
+
+.time-controls span {
+    margin-right: 5px; /* Adjust margin as needed */
+}
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.social-icon {
+    color: #212529;
+    font-size: 24px;
+    margin-right: 10px;
+    padding-top: -15px;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
