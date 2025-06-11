@@ -20,49 +20,50 @@ let currentSongIndex = 0;
 const songs = [
     {
         name: 'Chris Brown - Bruce Lee',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Bruce%20Lee%20Lyric%20Video.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Bruce%20Lee%20Lyric%20Video.mp3'
     },
     {
         name: 'Chris Brown - Delusional',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Delusional%20Visualizer.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Delusional%20Visualizer.mp3'
     },
     {
         name: 'Chris Brown - Feelings Don\'t lie',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Feelings%20Dont%20Lie%20Visualizer.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Feelings%20Dont%20Lie%20Visualizer.mp3'
     },
     {
         name: 'Chris Brown - Freak - ft Lil Wayne, Joyner Lucas & Tee Grizzley',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Freak%20Visualizer%20ft%20Lil%20Wayne%20Joyner%20Lucas%20Tee%20Grizzley.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Freak%20Visualizer%20ft%20Lil%20Wayne%20Joyner%20Lucas%20Tee%20Grizzley.mp3'
     },
     {
         name: 'Chris Brown - Hmm - ft Davido',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Hmmm%20Visualizer%20ft%20Davido.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Hmmm%20Visualizer%20ft%20Davido.mp3'
     },
     {
         name: 'Chris Brown - No One Else',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20No%20One%20Else%20Visualizer%20ft%20Fridayy.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20No%20One%20Else%20Visualizer%20ft%20Fridayy.mp3'
     },
     {
         name: 'Chris Brown - Press Me',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Press%20Me%20Visualizer.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Press%20Me%20Visualizer.mp3'
     },
     {
         name: 'Chris Brown - Stutter',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Stutter%20Visualizer.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Stutter%20Visualizer.mp3'
     },
     {
         name: 'Chris Brown - Angel Numbers/Ten Toes',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Angel%20Numbers%20Ten%20Toes%20Visualizer.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Angel%20Numbers%20Ten%20Toes%20Visualizer.mp3'
     },
     {
         name: 'Chris Brown - Weakest Link',
-        url: '/assets/music/y2mate.com%20-%20Weakest%20Link.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Weakest%20Link.mp3'
     },
     {
         name: 'Chris Brown - Shooter',
-        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Shooter%20Visualizer.mp3'
+        url: 'https://ingenious21.github.io/music_app/assets/music/y2mate.com%20-%20Chris%20Brown%20Shooter%20Visualizer.mp3'
     }
 ];
+
 
 function loadSong(index) {
     currentSongIndex = index;
