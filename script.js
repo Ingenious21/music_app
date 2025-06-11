@@ -18,17 +18,50 @@ let isShuffle = false;
 let currentSongIndex = 0;
 
 const songs = [
-    { name: 'Chris Brown - Bruce Lee', url: '/assets/music/bruce_lee.mp3' },
-    { name: 'Chris Brown - Delusional', url: '/assets/music/delusional.mp3' },
-    { name: 'Chris Brown - Feelings Don\'t lie', url: '/assets/music/feelings_dont_lie.mp3' },
-    { name: 'Chris Brown - Freak', url: '/assets/music/freak.mp3' },
-    { name: 'Chris Brown - Hmm - ft Davido', url: '/assets/music/hmm_davido.mp3' },
-    { name: 'Chris Brown - No One Else', url: '/assets/music/no_one_else.mp3' },
-    { name: 'Chris Brown - Press Me', url: '/assets/music/press_me.mp3' },
-    { name: 'Chris Brown - Stutter', url: '/assets/music/stutter.mp3' },
-    { name: 'Chris Brown - Angel Numbers/Ten Toes', url: '/assets/music/angel_numbers.mp3' },
-    { name: 'Chris Brown - Weakest Link', url: '/assets/music/weakest_link.mp3' },
-    { name: 'Chris Brown - Shooter', url: '/assets/music/shooter.mp3' }
+    {
+        name: 'Chris Brown - Bruce Lee',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Bruce%20Lee%20Lyric%20Video.mp3'
+    },
+    {
+        name: 'Chris Brown - Delusional',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Delusional%20Visualizer.mp3'
+    },
+    {
+        name: 'Chris Brown - Feelings Don\'t lie',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Feelings%20Dont%20Lie%20Visualizer.mp3'
+    },
+    {
+        name: 'Chris Brown - Freak - ft Lil Wayne, Joyner Lucas & Tee Grizzley',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Freak%20Visualizer%20ft%20Lil%20Wayne%20Joyner%20Lucas%20Tee%20Grizzley.mp3'
+    },
+    {
+        name: 'Chris Brown - Hmm - ft Davido',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Hmmm%20Visualizer%20ft%20Davido.mp3'
+    },
+    {
+        name: 'Chris Brown - No One Else',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20No%20One%20Else%20Visualizer%20ft%20Fridayy.mp3'
+    },
+    {
+        name: 'Chris Brown - Press Me',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Press%20Me%20Visualizer.mp3'
+    },
+    {
+        name: 'Chris Brown - Stutter',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Stutter%20Visualizer.mp3'
+    },
+    {
+        name: 'Chris Brown - Angel Numbers/Ten Toes',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Angel%20Numbers%20Ten%20Toes%20Visualizer.mp3'
+    },
+    {
+        name: 'Chris Brown - Weakest Link',
+        url: '/assets/music/y2mate.com%20-%20Weakest%20Link.mp3'
+    },
+    {
+        name: 'Chris Brown - Shooter',
+        url: '/assets/music/y2mate.com%20-%20Chris%20Brown%20Shooter%20Visualizer.mp3'
+    }
 ];
 
 function loadSong(index) {
